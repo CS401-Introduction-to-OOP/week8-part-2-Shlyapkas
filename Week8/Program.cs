@@ -12,8 +12,8 @@ class Program
         PointRef r1 = new PointRef { X = 1, Y = 2 };
         PointRef r2 = r1;
         r2.Y = 5;
-        p1.Print();
-        p2.Print();
+        r1.Print();
+        r2.Print();
         
         BoxingTester.Test();
     }
