@@ -17,6 +17,7 @@ class Program
         GC.Collect();
         Console.WriteLine("GC.Collect() was called.");
         Console.WriteLine($"Total size after GC: {container.GetTotalSize()} bytes");
+        // GetTotalSize не зменшиться, тому що контейнер зберігає посилання на дані
     }
     
 }
